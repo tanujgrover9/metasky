@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Page3 from "./components/Page3/Page3";
+import Page4 from "./components/Page4/Page4";
+import Pages5 from "./components/Page5/Pages5";
+import Page6 from "./components/Page6/Page6";
+import Page2 from "./components/Page2/Page2";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +35,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header/>
+        <Hero/>
+        <Page2/>
+        <Page3/>
+        <Page4/>
+        <Pages5/>
+        <Page6/>
         {children}
       </body>
     </html>

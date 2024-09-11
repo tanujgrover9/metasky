@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    position: relative;
+    padding-left: 80px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 104px;
+    font-weight: 700;
+    font-family: "Georama", sans-serif;
+}
+
+.roundimg {
+    position: absolute;
+    top: 6%;
+    left: 53%;
+    z-index: -1;
+}
+
+.img2 {
+    position: absolute;
+    top: 0%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transform: rotate(90deg);
+}
+
+.scroll {
+    position: relative;
+    left: 50%;
+}
+
+.vector {
+    position: absolute;
+    left: 66%;
+    top: 50%;
+}
+
+.kite {
+    z-index: 11;
+    position: absolute;
+    left: 24%;
+    top: 55%;
+    z-index: -1;
+}
+
+.kiteline {
+    position: absolute;
+    left: 88%;
+    top: 46%;
+}
+
+.stars {
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    z-index: -2;
+}
+
+.linkContainer {
+    position: absolute;
+    right: -170px;
+    top: 40%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transform: rotate(90deg);
+}
+
+.links {
+    font-family: "Georama", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    transform: rotate(90deg);
+    transform-origin: right center;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 50px; /* Adjust title size for smaller screens */
+        line-height: 1.2;
+    }
+
+    .roundimg {
+        width: 80%; /* Adjust image size for mobile */
+        left: 50%;
+        top: 10%;
+        transform: translateX(-50%);
+    }
+
+    .img2 {
+        width: 100%;
+        height: auto;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, 0) rotate(90deg);
+    }
+
+    .scroll {
+        left: 45%;
+        top: 80%;
+    }
+
+    .vector {
+        width: 100px;
+        height: auto;
+        left: 70%;
+        top: 50%;
+    }
+
+    .kite {
+        width: 60%;
+        left: 10%;
+        top: 65%;
+    }
+
+    .kiteline {
+        left: 85%;
+        top: 60%;
+    }
+
+    .stars {
+        width: 70px;
+        height: auto;
+        left: 70%;
+        top: 10%;
+    }
+
+    .linkContainer {
+        right: -120px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .links {
+        font-size: 16px; /* Adjust link size */
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 36px; /* Further reduce title size for very small screens */
+    }
+
+    .roundimg {
+        width: 70%;
+        left: 50%;
+        top: 15%;
+    }
+
+    .img2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .kite {
+        width: 50%;
+        left: 20%;
+    }
+
+    .vector,
+    .kiteline,
+    .stars {
+        display: none; /* Hide elements that may clutter small screens */
+    }
+
+    .linkContainer {
+        right: -100px;
+    }
+
+    .links {
+        font-size: 14px;
+    }
+}

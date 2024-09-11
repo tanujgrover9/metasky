@@ -1,0 +1,69 @@
+.container {
+    position: relative;
+    height: 100vh; /* Ensure container fills the viewport */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-image: url('../../../public/images/Group 122.png');
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  .img {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 40%;
+  }
+  
+  .titlediv {
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .title {
+    color:  #FFD318;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 80px;
+
+  }
+  
+  .title2 {
+    color: rgb(244, 244, 240);
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+  }
+  
+  .title3 {
+    color:  #FFD318;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+  }
+  
+  .btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  .vector1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+  }
+  .vector2{
+    position: absolute;
+    top:0%;
+    right: 30%;
+    
+
+  }
+  

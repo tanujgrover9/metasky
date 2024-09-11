@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 15px; /* Adjust gap between icons */
+  }
+  
+  .icon {
+    color: #000; /* Customize color of the icons */
+    text-decoration: none;
+  }
+  

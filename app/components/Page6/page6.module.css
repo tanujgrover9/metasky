@@ -1,0 +1,65 @@
+.container{
+    position: relative;
+    height: 100vh; /* Ensure container fills the viewport */
+    display: flex; /* Enable flexbox */
+}
+.img{
+    position: absolute;
+    margin-top: 320px;
+    left: 30%;
+}
+.img1{
+    position: absolute;
+}
+.img2{
+    position: absolute;
+    left: 30%;
+    margin-top: 140px;
+
+}
+.buttons{
+    display: flex;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+
+}
+.btn1{
+    padding: 15px 20px;
+    background-color:  #FFD318;
+    border-radius: 20px;
+}
+.btn2{
+    padding: 10px 20px;
+    background-color:  #fcfbfa;
+    border-radius: 20px;
+    margin-left: 30px;
+    border: 1px solid black;
+
+}
+.overlaytext{
+    position: absolute;
+    z-index: 22;
+    top: 90%;
+}
+
+  
+  .overlaytext p {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    padding: 0 20px; /* Add space on the sides */
+    animation: marquee 10s linear infinite; /* Animation for scrolling text */
+  }
+  
+  /* Animation for scrolling text */
+  /* @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
