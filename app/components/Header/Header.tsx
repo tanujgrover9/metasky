@@ -1,7 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import styles from './header.module.css';
 
 const Header = () => {
