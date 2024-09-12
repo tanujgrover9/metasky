@@ -8,6 +8,7 @@ import Page4 from "./components/Page4/Page4";
 import Pages5 from "./components/Page5/Pages5";
 import Page6 from "./components/Page6/Page6";
 import Page2 from "./components/Page2/Page2";
+import Page7 from "./components/Page7/Page7";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +41,8 @@ export default function RootLayout({
         <Page2/>
         <Page3/>
         <Page4/>
+        <Page7/>
+
         <Pages5/>
         <Page6/>
         {children}
